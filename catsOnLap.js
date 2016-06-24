@@ -11,7 +11,7 @@ var catSettle = function(settlingCat) {
 
 var theInevitable = function() {
 	needToPee++;
-  console.log("The restroom beckons ever louder...");
+  console.log("The bathroom beckons ever louder...");
 };
 
 var useRestroom = function() {
