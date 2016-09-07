@@ -1,8 +1,8 @@
-var cat         = { annoyance: 30 }; // cats are never not annoyed
-var lapContents = [];
-var needToPee   = 0;
+var cat           = { annoyance: 30 }; // cats are born annoyed
+var lapContents   = [];
+var needToPee     = 0;
 
-var catSettle = (cat) => lapContents.push(cat);
+var catSettle     = cat => lapContents.push(cat);
 
 var theInevitable = () => needToPee++;
 
