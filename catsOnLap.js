@@ -1,14 +1,12 @@
-var cat           = { annoyance: 30 }; // cats are born annoyed
-var lapContents   = [];
-var needToPee     = 0;
+let cat = { annoyance: 30 }; // cats are born annoyed
+let lapContents = [];
+let needToPee = 0;
 
-var catSettle     = cat => lapContents.push(cat);
-
-var theInevitable = () => needToPee++;
-
-var useRestroom = () => {
-	lapContents = [];
-	cat.annoyance++;
+const catSettle = cat => lapContents.push(cat);
+const theInevitable = () => needToPee++;
+const useRestroom = () => {
+  lapContents = [];
+  cat.annoyance++;
   needToPee = 0;
 };
 
